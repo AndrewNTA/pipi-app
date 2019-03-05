@@ -1,3 +1,32 @@
+# PiPi App
+
+PiPi App is a simple React-Redux application integrate with online API [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+This app use React Bootstrap library to render UI.
+
+## Installation
+
+Use the package manager [npm](https://www.npmjs.com/) to install pipi-app.
+
+```bash
+npm install
+```
+
+## Build
+
+```bash
+npm run build
+```
+## Library
+
+```python
+import { createEpicMiddleware } from 'redux-observable';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+...
+
+```
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
